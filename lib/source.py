@@ -16,7 +16,10 @@ def get_reverse_from_resolvethem(name):
         parser = BeautifulSoup(html)
         data = parser.find('div','inner')
         ip = re.search("(?:[0-9]{1,3}\.){3}[0-9]{1,3}", data.get_text())
-        if  re.match("(?:[0-9]{1,3}\.){3}[0-9]{1,3}", ip.group(0)):
-            return ip.group(0)
+        if ip:
+            if  re.match("(?:[0-9]{1,3}\.){3}[0-9]{1,3}", ip.group(0)):
+                return ip.group(0)
+            else:
+                return False
         else:
             return False

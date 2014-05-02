@@ -49,4 +49,4 @@ def resolve(name):
     if msg:
         logger.info('[+] Resolved!  IP: ' + msg)
     else:
-        logger.error('[-] Error: Impossible to resolve name')
+        logger.error('[-] Error: Impossible to resolve' + name)
