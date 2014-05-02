@@ -22,7 +22,7 @@ def update():
         msg = "[*] Repository at https://github.com/AeonDave/sir.git"
         logger.info(msg)
     else:
-        msg = "[*] Updating Tilt from latest version from the GitHub Repository\n" 
+        msg = "[*] Updating SIR from latest version from the GitHub Repository\n" 
         logger.info(msg)
         Popen("git stash", shell=True, stdout=PIPE, stderr=PIPE)
         Popen("git stash drop", shell=True, stdout=PIPE, stderr=PIPE)
