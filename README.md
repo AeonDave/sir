@@ -3,6 +3,7 @@ SIR
 
 Skype Ip Resolver
 
+![Screenshot](https://raw.githubusercontent.com/AeonDave/sir/master/doc/screenshot/sir.png)
 
 ## Description
 
