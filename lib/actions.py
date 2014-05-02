@@ -47,6 +47,6 @@ def resolve(name):
     ip = core.get_ip_by_name(name)
     msg = ip
     if msg:
-        logger.info('[+] Resolved!: ' + msg)
+        logger.info('[+] Resolved!  IP: ' + msg)
     else:
         logger.error('[-] Error: Impossible to resolve name')
