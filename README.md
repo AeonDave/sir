@@ -11,7 +11,7 @@ SIR, is a simple tool which resolve from the net the last known ip of a Skype Na
 
 ## Download and install
 
-You can download the latest version by cloning Tilt from the Git repository:
+You can download the latest version by cloning SIR from the Git repository:
 
 	git clone https://github.com/AeonDave/sir.git
 	
